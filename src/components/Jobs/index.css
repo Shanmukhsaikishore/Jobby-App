@@ -1,0 +1,156 @@
+.jobs-bg-container {
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px 70px 50px;
+}
+
+.filter-container {
+  width: 25%;
+}
+
+.sep {
+  border: 1px solid #b6c5ff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.type-filter {
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.filter-name {
+  margin-top: 0px;
+  color: #f1f5f9;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-ele {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.label-ele {
+  color: #f1f5f9;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.filter-list {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.result-container {
+  width: 70%;
+}
+
+.search-container {
+  width: 50%;
+  display: flex;
+  border: 1px solid #b6c5ff;
+  border-radius: 5px;
+}
+.search-box {
+  width: 90%;
+  height: 35px;
+  padding-left: 15px;
+  outline: none;
+  border-width: 0px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.search-button {
+  width: 10%;
+  border-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #202020;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #f1f5f9;
+  height: 17px;
+  width: 17px;
+}
+
+.jobs-list-container {
+  height: 100%;
+  padding-left: 0px;
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.jobs-loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.no-job-image {
+  width: 50%;
+  height: 300px;
+}
+
+.no-heading {
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.no-para {
+  font-size: 13px;
+}
+
+.search-sm-container {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-bg-container {
+    flex-direction: column;
+  }
+  .filter-container {
+    width: 100%;
+  }
+  .result-container {
+    width: 100%;
+  }
+  .search-container {
+    display: none;
+  }
+  .search-sm-container {
+    width: 100%;
+    display: flex;
+    border: 1px solid #b6c5ff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .no-job-image {
+    width: 100%;
+  }
+  .no-heading {
+    font-size: 20px;
+  }
+}

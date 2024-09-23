@@ -1,0 +1,29 @@
+.bad-container {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bad-heading {
+  font-size: 30px;
+}
+
+.bad-para {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.bad-image {
+  width: 30%;
+}
+
+@media screen and (max-width: 767px) {
+  .bad-image {
+    width: 80%;
+  }
+}

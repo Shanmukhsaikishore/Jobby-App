@@ -1,0 +1,85 @@
+.nav-bar {
+  background-color: #272727;
+  padding: 20px 50px 20px 50px;
+  width: 100%;
+}
+
+.nav-lg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-logo {
+  height: 40px;
+  width: 150px;
+}
+
+.home-sm-logo {
+  height: 25px;
+  width: 80px;
+}
+
+.nav-sm-container {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.logout-btn {
+  font-family: 'Roboto';
+  height: 30px;
+  width: 110px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #6366f1;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-lg-container {
+    display: none;
+  }
+  .nav-bar {
+    padding: 10px 0px 10px 15px;
+  }
+  .icon {
+    color: #cbd5e1;
+    height: 25px;
+    width: 25px;
+  }
+  .nav-sm-link {
+    margin-right: 20px;
+  }
+  .nav-sm-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-sm-menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .logout-sm-button {
+    padding: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+  }
+}

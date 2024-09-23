@@ -1,0 +1,140 @@
+.job-details-container {
+  background-color: #272727;
+  padding: 40px 30px 50px 30px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.job-des {
+  font-size: 27px;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  margin-bottom: 30px;
+}
+
+.job-des-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.visit {
+  font-size: 17px;
+  font-weight: 500;
+  color: #6366f1;
+  margin: 0px 5px 0px 0px;
+}
+
+.link-icon {
+  color: #6366f1;
+}
+
+.link-button {
+  padding: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+}
+
+.job-description {
+  font-size: 17px;
+  margin-top: 0px;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  line-height: 1.5;
+}
+
+.skills-heading {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  margin-top: 25px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skill-list-item {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.skill-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.skill-name {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.life-text-container {
+  display: flex;
+}
+
+.life-image {
+  width: 30%;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .job-des {
+    font-size: 17px;
+    margin: 0px;
+  }
+  .job-des-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .skills-heading {
+    font-size: 17px;
+  }
+
+  .skill-image {
+    height: 25px;
+    width: 25px;
+  }
+
+  .skill-list-item {
+    width: 50%;
+  }
+  .job-description {
+    font-size: 15px;
+  }
+  .life-text-container {
+    flex-direction: column;
+  }
+  .life-image {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .job-details-container {
+    padding: 20px 15px 20px 15px;
+  }
+}
